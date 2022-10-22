@@ -16,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--Off-white);
 }
 main {
   width: 90%;
@@ -23,6 +24,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--Off-white);
 }
 .header {
   width: 100%;
@@ -63,7 +65,7 @@ nav::before {
   width: 80%;
   max-width: 350px;
   min-height: 100vh;
-  background-color: white;
+  background-color: var(--Off-white);
   padding: 20px;
 }
 .close-nav {
@@ -222,6 +224,7 @@ section {
     min-height: unset;
     width: unset;
     display: flex;
+    background-color: unset;
   }
   .navbar {
     position: relative;
